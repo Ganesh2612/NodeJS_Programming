@@ -1,9 +1,9 @@
 class Student{
     constructor(name,age,marks){
         this.name=name;
-        this.age=age,
-        this.marks=marks,
-        this.batch=2025
+        this.age=age;
+        this.marks=marks;
+        this.batch=2025;
     }
     department=(dept)=>console.log(`You are from ${dept} department`);
 }
