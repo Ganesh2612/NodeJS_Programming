@@ -1,16 +1,17 @@
 class Student{
+    #phonenumber;
     constructor(name,phonenumber){
         this.name=name;
-        let  _phonenumber=phonenumber;
-
-        this.get_phone_number=()=>{
-            return _phonenumber;
+        this.#phonenumber=phonenumber;
+    }
+        get_phone_number=()=>{
+            return this.#phonenumber;
         };
     
-    this.setnumber=(num)=>{
-            _phonenumber=num;
+    setnumber=(num)=>{
+           return this.#phonenumber=num;
     };
-}
+
 }
 const stu1=new Student("ganesh");
 console.log(stu1.name);
