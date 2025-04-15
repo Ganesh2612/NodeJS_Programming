@@ -17,4 +17,5 @@ for(let i=val;i>1;i--){
 let fact=1;
 for(let i=1;i<=ques.length;i++){
 fact*=i;
-}console.log(fact/product);
+}
+console.log(fact/product);
