@@ -1,7 +1,15 @@
 console.log(5 + '5'); 
 console.log(true + 1); 
-
-
 console.log(Number('123')); 
 console.log(String(42)); 
 console.log(Boolean(0)); 
+console.log(undefined>0);
+console.log(undefined>=0);
+console.log(undefined>null);
+console.log(undefined>=null);
+console.log(null>undefined);
+console.log(null>=undefined);
+console.log(undefined==undefined);
+console.log(null==null);
+console.log([]>=0);
+console.log(Number("   ")==0);
